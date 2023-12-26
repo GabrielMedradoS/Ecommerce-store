@@ -43,7 +43,9 @@ O projeto é um site de Ecommerce que exibe os produtos usando a **API** disponi
 - [x] Layout de um Ecommerce
 - [x] Layout responsivo e dinâmico
 - [x] Processamento de dados de APIS externas (repositorio **Ecommerce-admin**)
-- [x] Todas as funcionalidades de um site Ecommerce como: Display de Loja, Produto, Imagem, carrinho de compras e sistema de pagamento
+- [x] Funcionalidades de um site Ecommerce como: Display de Loja, Produto, Imagem, carrinho de compras e sistema de pagamento
+- [x] Adicionar item ao carrinho
+- [x] Exibição detalhada ao apontar o cursor no produto
 
 ## 💻 Demonstração:
 

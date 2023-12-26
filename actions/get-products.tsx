@@ -22,7 +22,7 @@ export default async function getProducts(query: Query): Promise<Product[]> {
     },
   });
 
-  const res = await fetch(URL);
+  const res = await fetch(url);
 
   return res.json();
 }

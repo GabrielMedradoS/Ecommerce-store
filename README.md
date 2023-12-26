@@ -1,4 +1,4 @@
-## Ecommerce-store
+### Ecommerce-admin
 
 <p align='center'>
 <b height="50%" width="50%"></b>
@@ -6,22 +6,25 @@
 
 <p align="center">
     <img alt="Platform" src="https://img.shields.io/static/v1?label=Platform&message=PC&color=030712&labelColor=262626">
-    <img alt="project name" src="https://img.shields.io/badge/Ecommerce-admin-030712?&labelColor=262626"></img>    
-    <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielMedradoS/Ecommerce-admin?color=030712&labelColor=262626">
-    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/gabrielmedrados/ecommerce-admin?&color=030712&labelColor=262626">    
+    <img alt="project name" src="https://img.shields.io/badge/Ecommerce-store-030712?&labelColor=262626"></img>    
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielMedradoS/Ecommerce-store?color=030712&labelColor=262626">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/gabrielmedrados/ecommerce-store?&color=030712&labelColor=262626">    
     <a href="">
         <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=030712&labelColor=262626">
     </a>
 </p>
 
 <p align="center">
-    <a href="#projeto-">Projeto</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#tecnologias-">Tecnologias</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#layout-">Layout</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#licença-%EF%B8%8F">Licença</a>
+    <a href="#-objetivo">Objetivo</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-features">Features</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-demonstração">Demonstração</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-tecnologias">Tecnologias</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-documentation">Documentation</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="LICENSE">License</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-autor">Autor</a> 
 </p>
 
-### Layout 🚧
+## 🚧 Layout 
 
 #### Screenshot:
 
@@ -29,19 +32,72 @@
 🚧 Under construction 🚧
 </div>
 
-#### Demonstração:
+## 🎯 Objetivo
+
+O projeto é um site de Ecommerce que exibe os produtos usando a **API** disponivel no repositorio **Ecommerce-admin**
+
+## ✨ Features
+
+- [x] Layout de um Ecommerce
+
+## 💻 Demonstração:
 
 <div align='center'>
 🚧 Under construction 🚧
 </div>
 
-## Projeto 💻
+## 🚴🏻‍♂️ Rodar o projeto 
 
-- O projeto consiste na criação de um E-commerce usando Nextjs Shadcn/ui Tailwind Prisma Clerk
+Para baixar o código-fonte do projeto em sua máquina, primeiramente terá que ter instalado o [**Git**](https://git-scm.com/).
+Com o Git instalado, em seu terminal execute o seguinte comando:
 
-## Rodar o projeto 🚴🏻‍♂️
+```bash
+git clone https://github.com/GabrielMedradoS/Ecommerce-store.git
+```
 
-#### On your machine:
+Para instalar as dependências e executar o projeto terá que ter instalado em sua máquina o [**node.js**](https://nodejs.org/en/), que vem acompanhado do npm.
+
+> Nesse projeto foi utilizado o [**pnpm**](https://pnpm.io/), que busca economizar espaço em disco e acelerar a instalação de pacotes devido à sua abordagem de armazenamento de dependências compartilhado.
+
+Instale as dependências usando **pnpm** ou **npm**:
+
+```bash
+# pnpm
+pnpm install
+
+# npm
+npm install
+```
+
+Crie o arquivo .env com as variáveis de ambiente necessárias:
+
+```bash
+NEXT_PUBLIC_API_URL="Minha Loja disponibilizada pela key no repositorio ecommerce-admin"
+```
+
+Execute o projeto:
+
+```bash
+# pnpm
+pnpm run dev
+
+# npm
+npm run dev
+```
+
+O servidor estará disponível em http://localhost:3000.
+
+## 🛠 Tecnologias 
+
+<div>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" height="30" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+  alt="typescript" height="30" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind" height="30" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
+</div>
+
+## 📜 documentation 
 
 <details>
     <summary>Dependencies</summary>
@@ -61,6 +117,7 @@
     "clsx": "^2.0.0",
     "lucide-react": "^0.302.0",
     "next": "14.0.4",
+    "query-string": "^8.1.0",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.2.0"
@@ -81,46 +138,15 @@
 
 </details>
 
-```bash
-# Clone the repository
-$ git clone
-
-# Access the project folder at the command prompt
-$ cd ecommerce-store
-
-# Install the dependencies
-$ npm install
-
-# Run the script "start"
-$ npm run dev
-
-# The project will start at the door: 5173 - access http://localhost:3000
-```
-
-## Tecnologias 🛠
-
-<div>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5"  height="30" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain-wordmark.svg" alt="css3"  height="30" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" height="30" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" height="30" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-  alt="typescript" height="30" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind" height="30" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-</div>
-
-#### documentation 📜
-
 - [Next.js 13 | documentation](https://nextjs.org/docs)
 - [Tailwind | documentation](https://tailwindcss.com/docs/installation/using-postcss)
 - [Query-string | documentation](https://www.npmjs.com/package/query-string)
 
-## Licença ⚖️
+## ⚖️ License 
 
 This project is under the MIT license. See the archive [LICENSE]() for more details.
 
-## Autor ✍🏾
+## ✍🏾 Autor
 
 | <a href="https://github.com/gabrielmedrados/"><img src="https://user-images.githubusercontent.com/73303001/126536001-655e3cbd-facd-4de1-992f-b8d9d3656ace.jpg" width="100" alt="perfil"/><br>
 | :-------------------------: |

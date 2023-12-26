@@ -25,7 +25,7 @@
     <a href="#-autor">Autor</a> 
 </p>
 
-## 🚧 Layout 
+## 🚧 Layout
 
 #### Screenshot:
 
@@ -51,7 +51,7 @@ O projeto é um site de Ecommerce que exibe os produtos usando a **API** disponi
 🚧 Under construction 🚧
 </div>
 
-## 🚴🏻‍♂️ Rodar o projeto 
+## 🚴🏻‍♂️ Rodar o projeto
 
 Para baixar o código-fonte do projeto em sua máquina, primeiramente terá que ter instalado o [**Git**](https://git-scm.com/).
 Com o Git instalado, em seu terminal execute o seguinte comando:
@@ -92,7 +92,7 @@ npm run dev
 
 O servidor estará disponível em http://localhost:3000.
 
-## 🛠 Tecnologias 
+## 🛠 Tecnologias
 
 <div>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" height="30" width="40"/>
@@ -148,6 +148,7 @@ O servidor estará disponível em http://localhost:3000.
 - [Next.js 13 | documentation](https://nextjs.org/docs)
 - [Tailwind | documentation](https://tailwindcss.com/docs/installation/using-postcss)
 - [Query-string | documentation](https://www.npmjs.com/package/query-string)
+- [Headlessui/react](https://headlessui.com/)
 
 ## 💡 Como contribuir
 
@@ -159,7 +160,7 @@ O servidor estará disponível em http://localhost:3000.
 
 Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie uma _**issue**_ ou entre em contato comigo.
 
-## ⚖️ License 
+## ⚖️ License
 
 This project is under the MIT license. See the archive [LICENSE]() for more details.
 

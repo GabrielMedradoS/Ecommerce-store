@@ -39,6 +39,7 @@ O projeto é um site de Ecommerce que exibe os produtos usando a **API** disponi
 ## ✨ Features
 
 - [x] Layout de um Ecommerce
+- [x] Layout responsivo e dinâmico 
 
 ## 💻 Demonstração:
 

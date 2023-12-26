@@ -20,6 +20,7 @@
     <a href="#-demonstração">Demonstração</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-tecnologias">Tecnologias</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-documentation">Documentation</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-como-contribuir">Como Contribuir</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="LICENSE">License</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-autor">Autor</a> 
 </p>
@@ -34,12 +35,15 @@
 
 ## 🎯 Objetivo
 
+Criaçao de um site onde é possivel criar sua propria Loja e disponibilizar seus produtos. O sistema contem desde a seleçao de pedidos contendo itens do produtos escolhido e colocando no seu carrinho de compras, forma de pagamento e autenticaçao 
 O projeto é um site de Ecommerce que exibe os produtos usando a **API** disponivel no repositorio **Ecommerce-admin**
 
 ## ✨ Features
 
 - [x] Layout de um Ecommerce
-- [x] Layout responsivo e dinâmico 
+- [x] Layout responsivo e dinâmico
+- [x] Processamento de dados de APIS externas (repositorio **Ecommerce-admin**)
+- [x] Todas as funcionalidades de um site Ecommerce como: Display de Loja, Produto, Imagem, carrinho de compras e sistema de pagamento
 
 ## 💻 Demonstração:
 
@@ -98,7 +102,9 @@ O servidor estará disponível em http://localhost:3000.
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
 </div>
 
-## 📜 documentation 
+## 📜 documentation
+
+#### 👇 Clique para ver as Dependencias do projeto
 
 <details>
     <summary>Dependencies</summary>
@@ -142,6 +148,16 @@ O servidor estará disponível em http://localhost:3000.
 - [Next.js 13 | documentation](https://nextjs.org/docs)
 - [Tailwind | documentation](https://tailwindcss.com/docs/installation/using-postcss)
 - [Query-string | documentation](https://www.npmjs.com/package/query-string)
+
+## 💡 Como contribuir
+
+- Faça um **_fork_** desse repositório;
+- Crie um **branch** para a sua feature: `git checkout -b minha-feature`;
+- Faça um **commit** com suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça um **push** para o seu branch: `git push origin minha-feature`;
+- Faça um **pull request** com sua feature;
+
+Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie uma _**issue**_ ou entre em contato comigo.
 
 ## ⚖️ License 
 

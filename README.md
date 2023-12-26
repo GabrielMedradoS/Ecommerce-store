@@ -8,7 +8,7 @@
     <img alt="Platform" src="https://img.shields.io/static/v1?label=Platform&message=PC&color=030712&labelColor=262626">
     <img alt="project name" src="https://img.shields.io/badge/Ecommerce-store-030712?&labelColor=262626"></img>    
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielMedradoS/Ecommerce-store?color=030712&labelColor=262626">
-    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/gabrielmedrados/ecommerce-store?&color=030712&labelColor=262626">    
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/gabrielmedrados/Ecommerce-store?&color=030712&labelColor=262626">    
     <a href="">
         <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=030712&labelColor=262626">
     </a>

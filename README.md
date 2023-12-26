@@ -35,7 +35,7 @@
 
 ## 🎯 Objetivo
 
-Criaçao de um site onde é possivel criar sua propria Loja e disponibilizar seus produtos. O sistema contem desde a seleçao de pedidos contendo itens do produtos escolhido e colocando no seu carrinho de compras, forma de pagamento e autenticaçao 
+Criaçao de um site onde é possivel criar sua propria Loja e disponibilizar seus produtos. O sistema contem desde a seleçao de pedidos contendo itens do produtos escolhido e colocando no seu carrinho de compras, forma de pagamento e autenticaçao.
 O projeto é um site de Ecommerce que exibe os produtos usando a **API** disponivel no repositorio **Ecommerce-admin**
 
 ## ✨ Features

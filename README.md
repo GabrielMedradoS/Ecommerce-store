@@ -20,7 +20,6 @@
     <a href="#-demonstração">Demonstração</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-tecnologias">Tecnologias</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-documentation">Documentação</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-como-contribuir">Contribuição</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="LICENSE">License</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-autor">Autor</a> 
 </p>

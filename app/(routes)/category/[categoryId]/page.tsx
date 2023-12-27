@@ -8,6 +8,7 @@ import Container from "@/components/ui/container";
 import Filter from "./components/filter";
 import NoResults from "@/components/ui/no-results";
 import ProductCard from "@/components/ui/product-card";
+import MobileFilters from "./components/mobile-filters";
 
 export const revalidate = 0;
 
@@ -42,6 +43,7 @@ export default async function CategoryPage({
         <div className="px-4 sm:px-6 lg:px-8 pb-24">
           <div className="lg:grid lg:grid-cols-5 lg:gap-x-8">
             {/* AbbMobile Filters */}
+            <MobileFilters sizes={sizes} colors={colors} />
             <div className="hidden lg:block">
               <Filter valueKey="sizeId" name="Sizes" data={sizes} />
               <Filter valueKey="colorId" name="Colors" data={colors} />

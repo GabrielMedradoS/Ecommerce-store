@@ -71,6 +71,7 @@ Instale as dependências usando **pnpm** ou **npm**:
 # pnpm
 pnpm install
 ```
+
 ```bash
 # npm
 npm install
@@ -88,6 +89,7 @@ Execute o projeto:
 # pnpm
 pnpm run dev
 ```
+
 ```bash
 # npm
 npm run dev
@@ -131,7 +133,8 @@ O servidor estará disponível em http://localhost:3000.
     "query-string": "^8.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "tailwind-merge": "^2.2.0"
+    "tailwind-merge": "^2.2.0",
+    "zustand": "^4.4.7"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -153,6 +156,7 @@ O servidor estará disponível em http://localhost:3000.
 - [Tailwind | documentation](https://tailwindcss.com/docs/installation/using-postcss)
 - [Query-string | documentation](https://www.npmjs.com/package/query-string)
 - [Headlessui/react](https://headlessui.com/)
+- [Zustand | documentation](https://zustand-demo.pmnd.rs/)
 
 ## 💡 Como contribuir
 

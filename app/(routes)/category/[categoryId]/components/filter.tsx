@@ -39,7 +39,7 @@ export default function Filter({ data, name, valueKey }: FilterProps) {
       { skipNull: true }
     );
 
-    router.push(url);
+    router.push(url, { scroll: false });
   };
 
   return (

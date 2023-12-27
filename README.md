@@ -133,6 +133,7 @@ O servidor estará disponível em http://localhost:3000.
     "query-string": "^8.1.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
     "tailwind-merge": "^2.2.0",
     "zustand": "^4.4.7"
   },
@@ -157,6 +158,7 @@ O servidor estará disponível em http://localhost:3000.
 - [Query-string | documentation](https://www.npmjs.com/package/query-string)
 - [Headlessui/react](https://headlessui.com/)
 - [Zustand | documentation](https://zustand-demo.pmnd.rs/)
+- [React Hot Toast](https://react-hot-toast.com/)
 
 ## 💡 Como contribuir
 

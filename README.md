@@ -124,6 +124,7 @@ O servidor estará disponível em http://localhost:3000.
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
     "clsx": "^2.0.0",
     "lucide-react": "^0.302.0",
     "next": "14.0.4",

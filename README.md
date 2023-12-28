@@ -127,6 +127,7 @@ O servidor estará disponível em http://localhost:3000.
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "axios": "^1.6.3",
     "clsx": "^2.0.0",
     "lucide-react": "^0.302.0",
     "next": "14.0.4",
@@ -159,6 +160,7 @@ O servidor estará disponível em http://localhost:3000.
 - [Headlessui/react](https://headlessui.com/)
 - [Zustand | documentation](https://zustand-demo.pmnd.rs/)
 - [React Hot Toast](https://react-hot-toast.com/)
+- [Axios | documentation](https://axios-http.com/ptbr/docs/intro)
 
 ## 💡 Como contribuir
 

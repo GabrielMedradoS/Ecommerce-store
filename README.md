@@ -24,7 +24,7 @@
     <a href="#-autor">Autor</a> 
 </p>
 
-## 🚧 Layout
+## 📷 Layout
 
 #### Screenshot:
 

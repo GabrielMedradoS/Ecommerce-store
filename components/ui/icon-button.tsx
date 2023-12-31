@@ -20,7 +20,10 @@ export default function IconButton({
         flex
         items-center 
         justify-center 
-        bg-white 
+        bg-white
+        dark:bg-black
+        dark:border-2 
+        dark:border-white 
         border 
         shadow-md 
         p-2 

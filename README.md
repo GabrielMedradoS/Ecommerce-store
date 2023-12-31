@@ -48,9 +48,7 @@ O projeto é um site de Ecommerce que exibe os produtos usando a **API** disponi
 
 ## 💻 Demonstração:
 
-<div align='center'>
-🚧 Under construction 🚧
-</div>
+https://github.com/GabrielMedradoS/Ecommerce-store/assets/73303001/7aa88717-5d5d-459b-a9fd-2b9607fd31cd
 
 ## 🚴🏻‍♂️ Rodar o projeto
 

@@ -173,7 +173,7 @@ Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie um
 
 ## ⚖️ License
 
-This project is under the MIT license. See the archive [LICENSE]() for more details.
+This project is under the MIT license. See the archive [LICENSE](https://github.com/GabrielMedradoS/Ecommerce-store/blob/master/LICENSE) for more details.
 
 ## ✍🏾 Autor
 

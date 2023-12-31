@@ -129,6 +129,7 @@ O servidor estará disponível em http://localhost:3000.
     "clsx": "^2.0.0",
     "lucide-react": "^0.302.0",
     "next": "14.0.4",
+    "next-themes": "^0.2.1",
     "query-string": "^8.1.0",
     "react": "^18",
     "react-dom": "^18",

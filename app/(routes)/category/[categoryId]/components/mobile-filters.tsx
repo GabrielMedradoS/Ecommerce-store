@@ -22,7 +22,7 @@ export default function MobileFilters({ sizes, colors }: MobileFilterProps) {
 
   return (
     <>
-      <Button onClick={onOpen} className="flex items-center gap-x-2 lg:hidden">
+      <Button onClick={onOpen} className="flex items-center gap-x-2 lg:hidden ">
         Filter <Plus size={20} />
       </Button>
 
@@ -37,10 +37,13 @@ export default function MobileFilters({ sizes, colors }: MobileFilterProps) {
 
         {/* Dialog Position */}
         <div className="fixed inset-0 z-40 flex">
-          <Dialog.Panel className="relative ml-auto flex h-full w-full max-w-xs flex-col overflow-y-auto bg-white py-4 pb-6 shadow-xl">
+          <Dialog.Panel className="relative ml-auto flex h-full w-full max-w-xs flex-col overflow-y-auto bg-white dark:bg-[hsl(var(--background))] py-4 pb-6 shadow-xl ">
             {/* Close Button */}
             <div className="flex items-center justify-end px-4">
-              <IconButton icon={<X size={20} />} onClick={onClose} />
+              <IconButton
+                icon={<X size={20} className="dark:text-[hsl(var(--muted))]" />}
+                onClick={onClose}
+              />
             </div>
 
             {/* Render the filters */}

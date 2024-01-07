@@ -7,3 +7,19 @@ body,
 :root {
   height: 100%;
 }
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+
+  --border: 217.2 32.6% 17.5%;
+}
+
+@layer base {
+  body {
+    @apply dark:bg-[hsl(var(--background))];
+  }
+}

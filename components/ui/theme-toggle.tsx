@@ -3,33 +3,25 @@
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import Button from "./button";
-import { Fragment, useState } from "react";
-import { Switch } from "@headlessui/react";
+import { useEffect, useState } from "react";
 
 export default function ThemeToggle() {
-  const [enabled, setEnabled] = useState(false);
-  const { setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
+
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
 
   return (
-    <Switch checked={enabled} onChange={setEnabled} as={Fragment}>
-      {({ checked }) =>
-        checked ? (
-          /* Use the `checked` state to conditionally style the button. */
-          <Button
-            onClick={() => setTheme("light")}
-            className="px-4 py-2 border-2 dark:border-[hsl(var(--border))]"
-          >
-            <Sun size={20} />
-          </Button>
-        ) : (
-          <Button
-            onClick={() => setTheme("dark")}
-            className="px-4 py-2 border-2 dark:border-[hsl(var(--border))]"
-          >
-            <Moon size={20} />
-          </Button>
-        )
-      }
-    </Switch>
+    <Button
+      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+      className="px-4 py-2 border-2 dark:border-[hsl(var(--border))]"
+    >
+      {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}
+    </Button>
   );
 }

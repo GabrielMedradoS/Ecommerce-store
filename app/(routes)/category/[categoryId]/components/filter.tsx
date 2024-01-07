@@ -52,7 +52,8 @@ export default function Filter({ data, name, valueKey }: FilterProps) {
             <Button
               className={cn(
                 "rounded-md text-sm text-gray-800 p-2 bg-white border border-gray-300",
-                selectedValue === filter.id && "bg-black text-white"
+                selectedValue === filter.id &&
+                  "bg-black dark:bg-[hsl(var(--background))] text-white"
               )}
               onClick={() => onClick(filter.id)}
             >

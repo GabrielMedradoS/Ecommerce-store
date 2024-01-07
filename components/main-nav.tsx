@@ -25,7 +25,7 @@ export default function MainNav({ data }: MainNavProps) {
           key={route.href}
           href={route.href}
           className={cn(
-            "text-sm font-medium transition-colors hover:text-black dark:hover:text-[var(--muted)]",
+            "text-sm font-medium transition-colors hover:text-black dark:hover:text-[var(--muted)] dark:text-[hsl(var(--muted-foreground))]",
             route.active
               ? "text-black dark:text-[var(--muted-foreground)]"
               : "text-neutral-500"

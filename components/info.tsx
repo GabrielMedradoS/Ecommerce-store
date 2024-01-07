@@ -29,7 +29,7 @@ export default function Info({ data }: InfoProps) {
           <Currency value={data?.price} />
         </p>
       </div>
-      <hr className="my-4" />
+      <hr className="my-4 dark:border-[hsl(var(--border))]" />
       <div className="flex flex-col gap-y-6">
         <div className="flex items-center gap-x-4">
           <h3 className="font-semibold">Size:</h3>
@@ -48,7 +48,7 @@ export default function Info({ data }: InfoProps) {
       <div className="mt-10 flex items-center gap-x-3">
         <Button
           onClick={onAddToCart}
-          className="flex items-center gap-x-2 dark:border-2 dark:border-white"
+          className="flex items-center gap-x-2 dark:border-2 dark:border-[hsl(var(--border))]"
         >
           Add To Cart
           <ShoppingCart />

@@ -28,7 +28,9 @@ export default function GalleryTab({ image }: GalleryTabProps) {
           <span
             className={cn(
               "absolute inset-0 rounded-md ring-2 ring-offset-2",
-              selected ? "ring-black" : "ring-transparent"
+              selected
+                ? "ring-black dark:ring-[hsl(var(--muted-foreground))]"
+                : "ring-transparent"
             )}
           />
         </div>

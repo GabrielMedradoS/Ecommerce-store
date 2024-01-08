@@ -22,7 +22,10 @@ export default function MobileFilters({ sizes, colors }: MobileFilterProps) {
 
   return (
     <>
-      <Button onClick={onOpen} className="flex items-center gap-x-2 lg:hidden ">
+      <Button
+        onClick={onOpen}
+        className="flex items-center gap-x-2 lg:hidden border dark:border-[hsl(var(--border))]"
+      >
         Filter <Plus size={20} />
       </Button>
 

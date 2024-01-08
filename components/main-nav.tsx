@@ -17,9 +17,9 @@ export default function MainNav({ data }: MainNavProps) {
     label: route.name,
     active: pathname === `/category/${route.id}`,
   }));
-
+  // flex flex-col space-y-6
   return (
-    <nav className="mx-6 flex items-center space-x-4 lg:space-x-6">
+    <nav className="mx-6 md:flex items-center space-x-4 lg:space-x-6 hidden">
       {routes.map((route) => (
         <Link
           key={route.href}

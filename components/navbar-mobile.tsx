@@ -19,8 +19,11 @@ export default function NavBarMobile({ categories }: NavBarMobileProps) {
   const onClose = () => setOpen(false);
 
   return (
-    <Container>
-      <Button onClick={onOpen} className="relative">
+    <>
+      <Button
+        onClick={onOpen}
+        className="px-5 py-2 border-2 dark:border-[hsl(var(--border))] md:hidden"
+      >
         <PanelLeftOpen size={20} />
       </Button>
 
@@ -40,6 +43,6 @@ export default function NavBarMobile({ categories }: NavBarMobileProps) {
           </Dialog.Panel>
         </div>
       </Dialog>
-    </Container>
+    </>
   );
 }

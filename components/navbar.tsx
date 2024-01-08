@@ -15,7 +15,7 @@ export default async function Navbar() {
     <div className="border-b dark:border-[hsl(var(--border))]">
       <Container>
         <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center">
-          <Link href={"/"} className="ml-4 flex lg:ml-0 gap-x-2">
+          <Link href={"/"} className="ml-4 lg:ml-0 gap-x-2 hidden md:flex">
             <p className="font-bold text-xl">STORE</p>
           </Link>
           <NavBarMobile categories={categories} />

@@ -39,7 +39,7 @@ export default function NavBarMobile({ categories }: NavBarMobileProps) {
         {/* Dialog Position */}
         <div className="fixed inset-0 z-40 flex">
           <Dialog.Panel className="relative mr-auto flex h-full w-full max-w-xs flex-col overflow-y-auto bg-white dark:bg-[hsl(var(--background))] py-4 pb-6 shadow-xl transition-all">
-            <MainNav data={categories} />
+            <MainNav isOpen={open} data={categories} />
           </Dialog.Panel>
         </div>
       </Dialog>

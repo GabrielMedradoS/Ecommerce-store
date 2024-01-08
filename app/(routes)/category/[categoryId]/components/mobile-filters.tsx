@@ -32,7 +32,7 @@ export default function MobileFilters({ sizes, colors }: MobileFilterProps) {
         className="relative z-40 lg:hidden"
         onClose={onClose}
       >
-        {/* Background */}
+        {/* Background when open de dialog */}
         <div className="fixed inset-0 bg-black bg-opacity-25" />
 
         {/* Dialog Position */}

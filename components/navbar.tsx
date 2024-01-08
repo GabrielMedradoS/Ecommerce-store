@@ -3,6 +3,7 @@ import Container from "./ui/container";
 import MainNav from "./main-nav";
 import { getCategories } from "@/actions/get-categories";
 import NavbarActions from "./navbar-actions";
+import NavBarMobile from "./navbar-mobile";
 
 // Para eliminar todo o cache
 export const revalidate = 0;
@@ -17,6 +18,7 @@ export default async function Navbar() {
           <Link href={"/"} className="ml-4 flex lg:ml-0 gap-x-2">
             <p className="font-bold text-xl">STORE</p>
           </Link>
+          <NavBarMobile categories={categories} />
           <MainNav data={categories} />
           <NavbarActions />
         </div>

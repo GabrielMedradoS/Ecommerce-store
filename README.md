@@ -46,7 +46,6 @@ O projeto é um site de Ecommerce que exibe os produtos usando a **API** disponi
 - [x] Adicionar item ao carrinho
 - [x] Exibição detalhada ao apontar o cursor no produto
 - [x] Dark Mode
-- [x] Site Responsivo 
 
 ## 💻 Demonstração:
 

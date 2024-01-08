@@ -3,12 +3,14 @@
 import Button from "@/components/ui/button";
 import Currency from "@/components/ui/currency";
 import useCart from "@/hooks/use-cart";
+import { RefreshCw } from "lucide-react";
 import axios from "axios";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import toast from "react-hot-toast";
 
 export default function Summary() {
+  const [loading, setLoading] = useState(false);
   const SearchParams = useSearchParams();
   const items = useCart((state) => state.items);
   const removeAll = useCart((state) => state.removeAll);
@@ -29,6 +31,7 @@ export default function Summary() {
   }, 0);
 
   const onCheckout = async () => {
+    setLoading(true);
     const response = await axios.post(
       `${process.env.NEXT_PUBLIC_API_URL}/checkout`,
       {
@@ -58,7 +61,14 @@ export default function Summary() {
         disabled={items.length === 0}
         className="w-full mt-6 dark:border-[hsl(var(--border))] dark:border-2"
       >
-        Checkout
+        {loading ? (
+          <div className="flex justify-center cursor-wait space-x-2">
+            <RefreshCw className="w-6 h-6 animate-spin" />
+            <p>Loading....</p>
+          </div>
+        ) : (
+          "Checkout"
+        )}
       </Button>
     </div>
   );

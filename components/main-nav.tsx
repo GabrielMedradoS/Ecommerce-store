@@ -7,9 +7,10 @@ import { Category } from "@/types";
 
 interface MainNavProps {
   data: Category[];
+  isOpen?: boolean;
 }
 
-export default function MainNav({ data }: MainNavProps) {
+export default function MainNav({ data, isOpen }: MainNavProps) {
   const pathname = usePathname();
 
   const routes = data.map((route) => ({
@@ -17,9 +18,14 @@ export default function MainNav({ data }: MainNavProps) {
     label: route.name,
     active: pathname === `/category/${route.id}`,
   }));
-
+  // flex flex-col space-y-6
   return (
-    <nav className="mx-6 flex items-center space-x-4 lg:space-x-6">
+    <nav
+      className={cn(
+        "mx-6 md:flex items-center space-x-4 lg:space-x-6",
+        isOpen ? "space-x-0 flex flex-col space-y-6" : "hidden"
+      )}
+    >
       {routes.map((route) => (
         <Link
           key={route.href}

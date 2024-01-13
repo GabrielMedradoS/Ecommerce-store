@@ -11,8 +11,8 @@ import { ThemeProvider } from "@/providers/theme-provider";
 const font = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Store",
-  description: "Store",
+  title: "E-commerce store GMS",
+  description: "E-commerce store GMS",
 };
 
 export default function RootLayout({

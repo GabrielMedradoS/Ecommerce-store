@@ -41,6 +41,7 @@ export default function ProductCard({ data }: ProductCard) {
   return (
     <div
       onClick={handleClick}
+      /* property group is to display the buttons in the card */
       className="group cursor-pointer rounded-xl border p-3 space-y-4 dark:border-[hsl(var(--border))]"
     >
       {/* Images and Actions */}
